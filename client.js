@@ -73,7 +73,7 @@ var results = _([limitAmounts, queries])
     lastLimit = e[1];
   }
   else {
-    lastQuery = e[1]
+    lastQuery = e[1];
   }
 
   return searchContentApi(lastQuery, +lastLimit);
